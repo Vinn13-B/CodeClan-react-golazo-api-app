@@ -25,6 +25,12 @@ const TeamGoals = ({ goalsFor, goalsAgainst }) => {
                     },
                     vAxis: {
                         title: '',
+                        minorGridlines:{
+                            count: 0,
+                        },
+                    },
+                    legend: {
+                        position: 'none',
                     },
                 }}
                 rootProps={{ 'data-testid': '1' }}

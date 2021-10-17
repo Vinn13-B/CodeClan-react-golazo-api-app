@@ -23,7 +23,7 @@ const TeamContainer = () => {
 
     return (
         <>
-            <h1>This is the TeamContainer</h1>
+            <h1>This is the LeagueContainer</h1>
             <TeamTable teams={teams} onTeamClicked={onTeamClicked} />
             <TeamTableItem team={selectedTeam} />
         </>

@@ -20,9 +20,12 @@ const TeamResults = ({ played, won, drawn, lost }) => {
                 ]}
                 options={{
                     title: 'Results',
-                    pieSliceText: 'none',
+                    pieSliceText: 'label',
                     tooltipText: 'value',
-                    colors: ['green', 'blue', 'red'],
+                    legend:{
+                        position: 'none',
+                    },
+                    colors: ['green', 'yellow', 'red'],
 
                 }}
                 rootProps={{ 'data-testid': '1' }}
